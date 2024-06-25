@@ -21,7 +21,9 @@ generate a sonarqube token for jenkin credentials then add it to jenkins
 step 4
 
 install docker in EC2 and grant Ubuntu user permission to docker deamon.
-create jenkins credentials for docker and github
+create jenkins credentials for both docker and github
+create Jenkinsfile for the pipeline
+test the pipeline out with no problem
 
 step 5
 
