@@ -1,36 +1,35 @@
 # Jenkins-practical
 practical repo of Jenkins zero to hero
 
-step 1
+Step 1
 
-run 'mvn clean package' to get the artifact in place of the target folder
-create Dockerfile 
-run the app locally or in docker container
+Run 'mvn clean package' to generate the artifact in the 'target' folder.
+Create a Dockerfile.
+Run the application locally or within a Docker container.
 
-step 2
+Step 2
 
-launch an EC2 as our jenkins server
-install jenkins in EC2
-create a pipeline on jenkins with github repo linked 
+Launch an EC2 instance to serve as our Jenkins server.
+Install Jenkins on the EC2 instance.
+Create a pipeline in Jenkins and link it to the GitHub repository.
 
-step 3
+Step 3
 
-create a sonarqube server inside the EC2 and install sonarqube app
-generate a sonarqube token for jenkin credentials then add it to jenkins
+Set up a SonarQube server on the EC2 instance and install the SonarQube application.
+Generate a SonarQube token for Jenkins credentials and add it to Jenkins.
 
-step 4
+Step 4
 
-install docker in EC2 and grant Ubuntu user permission to docker deamon.
-create jenkins credentials for both docker and github
-create Jenkinsfile for the pipeline
-test the pipeline out with no problem
+Install Docker on the EC2 instance and grant the Ubuntu user permission to use the Docker daemon.
+Create Jenkins credentials for both Docker and GitHub.
+Create a 'Jenkinsfile' for the pipeline.
 
-step 5
+Step 5
 
-start a minikube for local deployment
-install argoCD operator on minikube and wait for the argoCD operator start running
-
-
+Start Minikube for local deployment.
+Install the ArgoCD operator on Minikube and wait for it to start running.
+Configure a new application through the ArgoCD UI.
+Verify that everything is running without errors.
 
 
 
